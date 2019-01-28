@@ -16,6 +16,11 @@
       "plugins": [
         "istanbul"
       ]
+    },
+    "production": {
+      "plugins": [
+        "istanbul"
+      ]
     }
   }
 }

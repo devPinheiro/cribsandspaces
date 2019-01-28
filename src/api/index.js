@@ -1,12 +1,12 @@
 import express from 'express';
-import { songRouter } from './resources/song';
+import { blogRouter } from './resources/blog';
 import { userRouter } from './resources/user/user.router';
-import { playListRouter } from './resources/playlist';
+import { commentRouter } from './resources/comment';
 
 export const restRouter = express.Router();
 // song route
-restRouter.use('/songs', songRouter);
+restRouter.use('/blogs', blogRouter);
 // user route
 restRouter.use('/users', userRouter);
 // playlist route
-restRouter.use('/playlist', playListRouter);
+restRouter.use('/comments', commentRouter);

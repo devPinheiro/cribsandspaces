@@ -1,5 +1,5 @@
 import userService from './user.service';
-import User, { STANDARD_ROLE } from './user.model';
+import User, { USER_ROLE } from './user.model';
 import jwt from '../../helpers/jwt';
 
 export default {
@@ -18,7 +18,7 @@ export default {
                 lastName: value.lastName,
                 email: value.email,
                 password: encryptedPass,
-                role: value.role || STANDARD_ROLE
+                role: value.role || USER_ROLE
 
             });
             return res.json({ success: true });

@@ -20,7 +20,7 @@ app.use(passport.initialize()); //req user
 configJWTStrategy();
 
 // api endpoints
-app.use('/api', restRouter);
+app.use('/api/v1', restRouter);
 
 // swagger api docs endpoint
 app.use('/api-docs', swagger.serve, swagger.setup(SwaggerDocument, {explorer: true}));

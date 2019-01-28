@@ -1,10 +1,9 @@
 import Joi from 'joi';
 
 export default {
-    validatePlayList(body) {
+    validateComment(body) {
         const schema = Joi.object().keys({
-            songs: Joi.array().items().required(),
-            name: Joi.string().required()     
+            content: Joi.string().required()  
         });
 
         const {value, error} = Joi.validate(body, schema);

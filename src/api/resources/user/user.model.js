@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 
-export const STANDARD_ROLE = 3;
-export const ARTIST_ROLE = 2;
-export const ADMIN_ROLE = 1;
+export const USER_ROLE = 3;
+export const ADMIN_ROLE = 2;
+export const SUPER_ADMIN_ROLE = 1;
 
 const { Schema } = mongoose;
 const userSchema = new Schema({
