@@ -1,5 +1,3 @@
-process.env.NODE_ENV = 'development';
-
 // import { describe, it, beforeEach } from 'mocha';
 import chai from 'chai';
 import chaiHttp from 'chai-http';
@@ -7,7 +5,7 @@ import mongoose from 'mongoose';
 import User from '../api/resources/user/user.model';
 import app from '../app';
 
-const should = chai.should();
+chai.should();
 const expect = chai.expect;
 chai.use(chaiHttp);
 
