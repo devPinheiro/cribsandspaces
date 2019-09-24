@@ -1,15 +1,50 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import Header from '../Header';
 
-export default class Hero extends Component {
+class Hero extends Component {
   render() {
     return (
-      <>
-         <nav className="flex hero-bg items-center justify-between flex-wrap h-100 bg-white-500 pt-5 p-3 z-40">
-           <div className=''>
+         <div className=" hero-bg  ">
+             <div className="w-full max-w-screen-xl relative mx-auto px-6  sm:pr-20 sm:pl-20">
+           <Header />
+               <div className="xl:flex lg:flex block p-5 mb-4">
+                    <div className="block xl:flex-1 lg:flex-1  text-dark  ">
+                        <div className="xl:pt-24 xl:mt-18 xl:pr-32  lg:pt-32 lg:mt-18 lg:pr-32 ">
+                            <h1 className="font-raleway leading-tight sm:text-3xl md:text-4xl lg-text-5xl xl:text-5xl text-2xl">
+                            Interior Design Beyond Borders
+                            </h1>
+                            <h6 className="font-raleway text-base sm:text-lg md:text-xl pt-4 pb-12 text-dark-400 ">
+                            Lorem ipsum putem remus lorem this
+We turn your space into a wonder
+                            </h6>
+                            <div className=" m-auto text-center xl:text-left lg:text-left mb-8 ">
+                                <Link
+                                    to="/books"
+                                    className="font-raleway text-sm md:text-base lg:text-xl xl:text-xl px-4 py-2 pt-3 pb-3  xl:pt-4 xl:pb-4 lg:pt-4 lg:pb-4 pr-10 pl-10 xl:pr-20 xl:pl-20 lg:pr-16 lg:pl-16 md:pr-10 md:pl-10 border-500 rounded text-white border border-orange-500 bg-orange-500 mt-4 shadow-lg"
+                                > 
+                                    Explore Now
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className=" block xl:flex-1 lg:flex-1 pt-8 m-auto  ">
+                       
+                    </div>
+                </div>
 
-           </div>
-         </nav>
-      </>
+                {/* home page  */}
+                <div className="relative block lg:flex -mb-4  w-md mx-auto md:mr-28 md:ml-28 lg:mr-32 lg:ml-32  xl:mr-40 xl:ml-40 mt-30  pt-10 pb-10 p-6 bg-white rounded-lg shadow-xl">
+                <div className="block ">
+                    <img src="../../../images/bathtub.png" />
+                </div>
+                </div>
+                </div>
+         </div>
+    
     )
   }
 }
+
+
+export default Hero;
