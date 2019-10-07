@@ -35,10 +35,25 @@ We turn your space into a wonder
 
                 {/* home page  */}
                 <div className="relative block lg:flex -mb-4  w-md mx-auto md:mr-28 md:ml-28 lg:mr-32 lg:ml-32  xl:mr-40 xl:ml-40 mt-30  pt-10 pb-10 p-6 bg-white rounded-lg shadow-xl">
-                <div className="block ">
+
+                <div
+            className="w-full flex flex-col items-center
+        lg:flex-row lg:h-80 lg:justify-between"
+        >
+
+
+<div className="block ">
                     <img src="../../../images/bathtub.png" />
+                    <h4>Bath Tubs</h4>
                 </div>
+            <h1>Hey </h1>
+            <h1>Hey </h1>
+        </div>
+                
                 </div>
+
+
+              
                 </div>
          </div>
     
