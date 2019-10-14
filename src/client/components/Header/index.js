@@ -16,7 +16,7 @@ const Navbar = () => {
             
             <div className="flex items-center flex-shrink-0 text-dark mr-6">
                 <Link to="/">
-                    <img className="w-full " src="../../../images/cribs_logo.jpg" />
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg" />
                 </Link>
             </div>
             <div className="block lg:hidden">

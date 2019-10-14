@@ -33,8 +33,8 @@ We turn your space into a wonder
                     </div>
                 </div>
 
-                {/* home page  */}
-                <div className="relative block lg:flex -mb-4  w-md mx-auto md:mr-28 md:ml-28 lg:mr-32 lg:ml-32  xl:mr-40 xl:ml-40 mt-30  pt-10 pb-10 p-6 bg-white rounded-lg shadow-xl">
+                {/* hero tab  */}
+                <div className="relative block lg:flex -mb-4  w-md mx-auto md:mr-28 md:ml-28 lg:mr-32 lg:ml-32  xl:mr-40 xl:ml-40 mt-30 mt-32 pt-10 pb-10 p-6 bg-white rounded-lg shadow-xl">
 
                 <div
             className="w-full flex flex-col items-center
@@ -43,11 +43,21 @@ We turn your space into a wonder
 
 
 <div className="block ">
-                    <img src="../../../images/bathtub.png" />
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058998/cns/bathtub.png" />
                     <h4>Bath Tubs</h4>
                 </div>
-            <h1>Hey </h1>
-            <h1>Hey </h1>
+                <div className="block ">
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058998/cns/bathtub.png" />
+                    <h4>Bath Tubs</h4>
+                </div>
+                <div className="block ">
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058998/cns/bathtub.png" />
+                    <h4>Bath Tubs</h4>
+                </div>
+                <div className="block ">
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058998/cns/bathtub.png" />
+                    <h4>Bath Tubs</h4>
+                </div>
         </div>
                 
                 </div>
