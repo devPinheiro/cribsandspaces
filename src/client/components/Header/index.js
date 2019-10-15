@@ -16,7 +16,7 @@ const Navbar = () => {
             
             <div className="flex items-center flex-shrink-0 text-dark mr-6">
                 <Link to="/">
-                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg" />
+                    <img className="w-20" src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg" />
                 </Link>
             </div>
             <div className="block lg:hidden">
@@ -40,32 +40,32 @@ const Navbar = () => {
             >
                 <div className="text-sm text-center m-auto pt-8 lg:pt-1 xl:pt-1">
                     <NavLink
-                        className="font-raleway block font-semibold md:text-lg lg:text-lg xl:text-lg text-sm lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
+                        className="font-raleway block  md:text-lg lg:text-lg xl:text-lg text-sm lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
                         to="/"
                         exact
-                        activeClassName="border-orange-450 pb-1 border-b-2"
+                        activeClassName="border-orange-500 font-semibold pb-1 border-b-2"
                     >
                         Home
                     </NavLink>
                     <NavLink
-                        className="font-raleway block font-semibold  md:text-lg lg:text-lg xl:text-lg lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
+                        className="font-raleway block   md:text-lg lg:text-lg xl:text-lg lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
                         to="/books"
-                        activeClassName="border-orange-450 pb-1 border-b-2"
+                        activeClassName="border-orange-500 font-semibold pb-1 border-b-2"
                     >
                         Projects
                     </NavLink>
 
                     <NavLink
-                        className="font-raleway block font-semibold  md:text-lg lg:text-lg xl:text-lg mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
+                        className="font-raleway block   md:text-lg lg:text-lg xl:text-lg mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
                         to="#"
                         exact
-                        activeClassName="border-orange-450 pb-1 border-b-2"
+                        activeClassName="border-orange-500 font-semibold pb-1 border-b-2"
                     >
                         About
                     </NavLink>
                 </div>
                 <div>
-      <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded text-black border-orange hover:border-transparent hover:text-teal-500 hover:bg-orange mt-4 lg:mt-0">Get in touch</a>
+      <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded text-black border-orange-500 hover:border-transparent hover:text-white hover:bg-orange-500 mt-4 lg:mt-0">Get in touch</a>
     </div>
             
             </div>
