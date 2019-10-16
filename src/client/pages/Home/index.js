@@ -139,7 +139,7 @@ your space truly.</p>
            
       </div>
 
-
+     
        {/* About section */}
        <div className="w-full flex flex-col bg-gray-200  pt-24 pb-24 items-center lg:flex-row lg:h-80 lg:justify-between">
               <div className="w-1/2 pl-5 pr-5">
@@ -160,13 +160,13 @@ your space truly.</p>
 
 
 
-                  <form class=" flex w-full max-w-sm">
-                    <div class="md:flex md:items-center">
-                      <div class="md:w-1/3">
-                          <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="email" value="example@mail.com" />
+                  <form className=" flex w-full max-w-sm">
+                    <div className="md:flex md:items-center">
+                      <div className="md:w-1/3">
+                          <input className="bg-gray-200  border-2 border-orange-500 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="email" value="example@mail.com" />
                       </div>
-                      <div class="md:w-2/3">
-                        <button class="shadow bg-orange-500 hover:bg-orange-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+                      <div clasNames="md:w-2/3">
+                        <button className="shadow bg-orange-500 hover:bg-orange-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
                          Join
                         </button>
                       </div>

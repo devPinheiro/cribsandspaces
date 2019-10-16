@@ -16,7 +16,7 @@ const Navbar = () => {
             
             <div className="flex items-center flex-shrink-0 text-dark mr-6">
                 <Link to="/">
-                    <img className="w-20" src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg" />
+                    <img className="w-24" src="https://res.cloudinary.com/appnet/image/upload/v1571225682/cns/cribsandspaces_interior_design_logo_small.png" />
                 </Link>
             </div>
             <div className="block lg:hidden">
@@ -65,7 +65,7 @@ const Navbar = () => {
                     </NavLink>
                 </div>
                 <div>
-      <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded text-black border-orange-500 hover:border-transparent hover:text-white hover:bg-orange-500 mt-4 lg:mt-0">Get in touch</a>
+      <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded-full text-black border-orange-500 hover:border-transparent hover:text-white hover:bg-orange-500 mt-4 lg:mt-0">Get in touch</a>
     </div>
             
             </div>
