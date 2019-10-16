@@ -8,9 +8,9 @@ class Hero extends Component {
          <div className=" hero-bg  ">
              <div className="w-full max-w-screen-xl relative mx-auto px-6  sm:pr-20 sm:pl-20">
            <Header />
-               <div className="xl:flex lg:flex block p-5 mb-4">
+               <div className="xl:flex lg:flex block mb-4">
                     <div className="block xl:flex-1 lg:flex-1  text-dark  ">
-                        <div className="xl:pt-24 xl:mt-18 xl:pr-32  lg:pt-32 lg:mt-18 lg:pr-32 ">
+                        <div className="xl:pt-24 xl:mt-18 xl:pr-32  lg:pt-40 lg:mt-18 lg:pr-32 ">
                             <h1 className="font-raleway leading-tight sm:text-3xl md:text-4xl lg-text-5xl xl:text-5xl text-2xl">
                             Interior Design Beyond Borders
                             </h1>
@@ -34,7 +34,7 @@ We turn your space into a wonder
                 </div>
 
                 {/* hero tab  */}
-                <div className="relative block lg:flex -mb-4  w-md mx-auto md:mr-28 md:ml-28 lg:mr-32 lg:ml-32  xl:mr-40 xl:ml-40 mt-32  pt-10 pb-10 p-6 bg-white rounded-lg shadow-xl">
+                <div className="relative block lg:flex -mb-4  w-md mx-auto md:mr-28 md:ml-28 lg:mr-32 lg:ml-32  xl:mr-40 xl:ml-40 mt-40  pt-10 pb-10 p-6 bg-white rounded-lg shadow-xl">
 
                 <div
             className="w-full flex flex-col items-center
@@ -47,15 +47,15 @@ We turn your space into a wonder
                     <h4>Bath Tubs</h4>
                 </div>
                 <div className="block ">
-                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058998/cns/bathtub.png" />
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058987/cns/desktop.png" />
                     <h4>Bath Tubs</h4>
                 </div>
                 <div className="block ">
-                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058998/cns/bathtub.png" />
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058994/cns/kitchen.png" />
                     <h4>Bath Tubs</h4>
                 </div>
                 <div className="block ">
-                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058998/cns/bathtub.png" />
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058987/cns/decorating.png" />
                     <h4>Bath Tubs</h4>
                 </div>
         </div>
