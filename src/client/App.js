@@ -10,11 +10,11 @@ import Header from './components/Header';
 const Main = withRouter(({ location }) => {
   return (
     <>
-     {["/blog"].includes(
+     {["/"].includes(
         location.pathname
       ) ||
         (["/"].includes(location.pathname) && <Header />)}
-    <Route path="/" exact component={Home} />
+    <Route path="/" exact  component={Home} />
     <Route path="/blog" exact component={Blog} />
    <Footer />
    </>
