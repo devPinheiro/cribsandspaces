@@ -16,6 +16,7 @@ const Main = withRouter(({ location }) => {
         (["/"].includes(location.pathname) && <Header />)}
     <Route path="/" exact  component={Home} />
     <Route path="/blog" exact component={Blog} />
+    <Route path="/blog" exact component={Blog} />
    <Footer />
    </>
   )
