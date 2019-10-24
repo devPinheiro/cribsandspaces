@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className="pt-6 bg-gray-50">
+        <div className=" mx-auto px-6  sm:pr-20 sm:pl-20 pt-6 bg-gray-50">
             <div className="flex flex-col lg:flex-row ">
-                <div className="flex flex-col w-3/3 md:w-1/3 m-auto pt-8 pl-10">
+                <div className="flex flex-col w-3/3 md:w-1/3 m-auto pt-8">
                     <h6 className="font-raleway font-bold text-base pb-5">
                         Links
                     </h6>
@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-3/3 md:w-1/3 m-auto pt-8 pl-10 lg:pl-20">
+                <div className="flex flex-col w-3/3 md:w-1/3 m-auto pt-8 lg:pl-20">
                     <h6 className="font-raleway font-bold text-base pb-5">
                         Connect with us
                     </h6>
