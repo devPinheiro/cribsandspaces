@@ -138,7 +138,7 @@ export default class Home extends Component {
 
      
        {/* About section */}
-       <div className="w-full flex flex-col bg-dark-200  pt-24 pb-24 items-center lg:flex-row lg:h-80 lg:justify-between">
+       <div className="w-full flex flex-col bg-gray-200  pt-24 pb-24 items-center lg:flex-row lg:h-80 lg:justify-between">
               <div className="w-1/2 pl-16 pr-16">
                   <h1 className="font-raleway pb-4 leading-tight sm:text-3xl md:text-4xl lg-text-5xl xl:text-5xl text-2xl">Our Studio</h1>
                   <img className="w-1/2" src="https://res.cloudinary.com/appnet/image/upload/v1571059325/cns/apartment-chair-contemporary-509922.png" /> 
