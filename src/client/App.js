@@ -11,7 +11,7 @@ const Main = withRouter(({ location }) => {
   return (
     <>
      {
-        (["/blog"].includes(location.pathname) && <div className="pr-10 pl-10"> <Header /> </div>)}
+        (["/blog"].includes(location.pathname) && <div className=" mx-auto px-6  sm:pr-20 sm:pl-20"> <Header /> </div>)}
     <Route path="/" exact  component={Home} />
     <Route path="/blog" exact component={Blog} />
    <Footer />
