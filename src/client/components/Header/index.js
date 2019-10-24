@@ -49,7 +49,7 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink
                         className="font-raleway block   md:text-lg lg:text-lg xl:text-lg lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
-                        to="/books"
+                        to="/projects"
                         activeClassName="border-orange-500 font-semibold pb-1 border-b-2"
                     >
                         Projects
@@ -57,11 +57,11 @@ const Navbar = () => {
 
                     <NavLink
                         className="font-raleway block   md:text-lg lg:text-lg xl:text-lg mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
-                        to="#"
+                        to="/blog"
                         exact
                         activeClassName="border-orange-500 font-semibold pb-1 border-b-2"
                     >
-                        About
+                        Our Blog
                     </NavLink>
                 </div>
                 <div>
