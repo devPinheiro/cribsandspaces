@@ -19,7 +19,7 @@ export default class Home extends Component {
           <div
             className="w-full flex flex-col  pt-24 items-center lg:flex-row lg:h-80 lg:justify-between">
 
-            <div className="w-1/3 rounded overflow-hidden shadow-lg">
+            <div className="w-1/3 m-2 rounded overflow-hidden shadow-lg">
             <img className="w-full" src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg" alt="Sunset in the mountains" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -35,7 +35,7 @@ export default class Home extends Component {
             </div>
 
 
-            <div className="w-2/3 rounded overflow-hidden shadow-lg">
+            <div className="w-1/3 m-2 rounded overflow-hidden shadow-lg">
             <img className="w-full" src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg" alt="Sunset in the mountains" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -51,7 +51,7 @@ export default class Home extends Component {
             </div>
 
 
-            <div className="max-w-sm rounded overflow-hidden shadow-lg">
+            <div className="w-1/3 m-2 rounded overflow-hidden shadow-lg">
             <img className="w-full" src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg" alt="Sunset in the mountains" />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">The Coldest Sunset</div>

@@ -10,12 +10,9 @@ import Header from './components/Header';
 const Main = withRouter(({ location }) => {
   return (
     <>
-     {["/"].includes(
-        location.pathname
-      ) ||
-        (["/"].includes(location.pathname) && <Header />)}
+     {
+        (["/blog"].includes(location.pathname) && <div className="pr-10 pl-10"> <Header /> </div>)}
     <Route path="/" exact  component={Home} />
-    <Route path="/blog" exact component={Blog} />
     <Route path="/blog" exact component={Blog} />
    <Footer />
    </>
