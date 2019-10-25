@@ -5,6 +5,9 @@ import Blog from '../client/pages/Blogs'
 import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import { ApolloProider } from 'react-apollo';
+import { ApolloClient } from 'apollo-client';
+import { createHttpLink } from 'apollo-link-http'
 
 
 const Main = withRouter(({ location }) => {
