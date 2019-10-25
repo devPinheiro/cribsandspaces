@@ -1,5 +1,6 @@
 import React from 'react';
 import Proptypes from 'prop-types'
+import Image from '../Image';
 
 const Card = ({ image, title, description, tags, ...rest}) => {
   return (
