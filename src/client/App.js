@@ -9,6 +9,11 @@ import { ApolloProider } from 'react-apollo';
 import { ApolloClient } from 'apollo-client';
 import { createHttpLink } from 'apollo-link-http'
 
+// Apollo Client setup
+const client = new ApolloClient({
+   uri: 'http://localhost:1337/'
+});
+
 
 const Main = withRouter(({ location }) => {
   return (
@@ -25,9 +30,11 @@ const Main = withRouter(({ location }) => {
 
 const App = () => {
   return (
-    <Router>
-      <Main />
-    </Router>
+    <ApolloProvider client={client}>
+      <Router>
+        <Main />
+      </Router>
+    </ApolloProvider>
   )
 };
 
