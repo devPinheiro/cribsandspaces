@@ -1,14 +1,44 @@
-import React from 'react'
+import React from 'react';
+import { Query } from 'react-apollo';
+import gql from 'graphql-tag';
+
+const SampleData = () => {
+ return( <Query query={gql `
+  query {
+    blogs {
+      title,
+      content
+    }
+  }
+  
+  `}>
+    {
+      ({loading, error, data}) => {
+        if(loading) return <p>Loading...</p>
+        if(error) return <p>Error </p>
+        return data.blogs.map((item, id) => {
+          <div key={id}>
+             <h4>{item.title}</h4>
+             <p>{item.content}</p>
+          </div>
+        })
+      }
+    }
+  </Query>
+  )
+}
+
 
 const Blog = () => {
   return (
     <div className="w-full max-w-screen-xl  mx-auto px-6  sm:pr-20 sm:pl-20">
        
-
-
+        
        
         <h1 className="font-raleway pb-4 leading-tight sm:text-3xl md:text-4xl lg-text-5xl xl:text-5xl text-2xl">Collection of Blog posts</h1>
-           <div className="border-orange-500 border-l-2 pl-5 pt-5 pb-5 ">        
+           <div className="border-orange-500 border-l-2 pl-5 pt-5 pb-5 "> 
+           <SampleData></SampleData>
+       
               <p>we are always adventurous and that drive us to build cool product</p>
               <p>We derive joy in making your space your space truly.</p>
            </div>

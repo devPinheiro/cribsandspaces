@@ -6,13 +6,13 @@ import SingleBlogPage from "../client/pages/SingleBlogPage";
 import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import { ApolloProvider } from 'react-apollo';
-import ApolloClient  from 'apollo-boost';
+import { ApolloProvider, Query } from 'react-apollo';
+import ApolloClient, { gql }  from 'apollo-boost';
 import { createHttpLink } from 'apollo-link-http';
 
 // Apollo Client setup
 const client = new ApolloClient({
-   uri: 'http://localhost:1337/'
+   uri: 'http://localhost:1337/graphql'
 });
 
 
@@ -28,6 +28,7 @@ const Main = withRouter(({ location }) => {
    </>
   )
 })
+
 
 
 const App = () => {
