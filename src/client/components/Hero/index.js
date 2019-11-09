@@ -33,27 +33,37 @@ We turn your space into a wonder
                     </div>
                 </div>
 
-            {/* hero tab  */}
-            <div className="relative hidden md:show block lg:flex lg:mt-24 -mb-4  w-md mx-auto md:mr-28 md:ml-28 lg:mr-32 lg:ml-32  xl:mr-40 xl:ml-40  pt-10 pb-10 p-6 bg-white rounded-lg shadow-xl">
-                <div className="w-full flex flex-col items-center lg:flex-row lg:h-80 lg:justify-between">
-                     <div className="block ">
-                                <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058998/cns/bathtub.png" />
-                                <h4>Bath Tubs</h4>
-                            </div>
-                            <div className="block ">
-                                <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058987/cns/desktop.png" />
-                                <h4>Bath Tubs</h4>
-                            </div>
-                            <div className="block ">
-                                <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058994/cns/kitchen.png" />
-                                <h4>Bath Tubs</h4>
-                            </div>
-                            <div className="block ">
-                                <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058987/cns/decorating.png" />
-                                <h4>Bath Tubs</h4>
-                            </div>
-                        </div>                           
-                    </div>
+                {/* hero tab  */}
+                <div className="relative hidden md:show block lg:flex -mb-4  w-md mx-auto md:mr-28 md:ml-28 lg:mr-32 lg:ml-32  xl:mr-40 xl:ml-40  pt-10 pb-10 p-6 bg-white rounded-lg shadow-xl">
+
+                <div
+            className="w-full flex flex-col items-center
+        lg:flex-row lg:h-80 lg:justify-between"
+        >
+
+
+<div className="block ">
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058998/cns/bathtub.png" />
+                    <h4>Bath Tubs</h4>
+                </div>
+                <div className="block ">
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058987/cns/desktop.png" />
+                    <h4>Bath Tubs</h4>
+                </div>
+                <div className="block ">
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058994/cns/kitchen.png" />
+                    <h4>Bath Tubs</h4>
+                </div>
+                <div className="block ">
+                    <img className="w-10" src="https://res.cloudinary.com/appnet/image/upload/v1571058987/cns/decorating.png" />
+                    <h4>Bath Tubs</h4>
+                </div>
+        </div>
+                
+                </div>
+
+
+              
                 </div>
          </div>
     )
