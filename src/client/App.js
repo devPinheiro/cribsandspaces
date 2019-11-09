@@ -24,6 +24,7 @@ const Main = withRouter(({ location }) => {
     <Route path="/" exact  component={Home} />
     <Route path="/blog" exact component={Blog} />
     <Route path="/blog-post" exact component={SingleBlogPage} />
+    <Route path="/blog-post" exact component={SingleBlogPage} />
    <Footer />
    </>
   )
