@@ -12,7 +12,7 @@ const Navbar = () => {
     });
 
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-white-500 pt-5 z-40">
+        <nav className="flex items-center justify-between flex-wrap bg-white-500 pt-5 z-40 pb-8">
             
             <div className="flex items-center flex-shrink-0 text-dark mr-6">
                 <Link to="/">
@@ -56,17 +56,19 @@ const Navbar = () => {
                     </NavLink>
 
                     <NavLink
-                        className="font-raleway block   md:text-lg lg:text-lg xl:text-lg mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
+                        className="font-raleway block   md:text-lg lg:text-lg xl:text-lg lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
                         to="/blog"
                         exact
                         activeClassName="border-orange-500 font-semibold pb-1 border-b-2"
                     >
                         Our Blog
                     </NavLink>
+
+                    <div className="font-raleway block   md:text-lg lg:text-lg xl:text-lg lg:mr-8 lg:mt-4 lg:inline-block lg:mt-0 ">
+                   <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded-full text-black border-orange-500 hover:border-transparent hover:text-white hover:bg-orange-500 mt-4 lg:mt-0">Get in touch</a>
                 </div>
-                <div>
-      <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded-full text-black border-orange-500 hover:border-transparent hover:text-white hover:bg-orange-500 mt-4 lg:mt-0">Get in touch</a>
-    </div>
+                </div>
+              
             
             </div>
         </nav>
