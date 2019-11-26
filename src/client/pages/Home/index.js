@@ -10,7 +10,7 @@ export default class Home extends Component {
 
         {/* Projects slides */}
       <div className= "w-full mt-40 max-w-screen-xl mx-auto px-6  sm:pr-20 sm:pl-20">
-        <h1 className="font-raleway pb-4 leading-tight sm:text-3xl md:text-4xl lg-text-5xl xl:text-5xl text-2xl">Projects we love</h1>
+        <h1 className="font-raleway pb-4 leading-tight sm:text-3xl md:text-4xl lg-text-5xl xl:text-5xl text-2xl">Projects we love </h1>
            <div className="border-orange-500 border-l-2 pl-5 pt-5 pb-5 ">        
               <p>we are always adventurous and that drive us to build cool product</p>
               <p>We derive joy in making your space your space truly.</p>
