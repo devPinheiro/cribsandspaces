@@ -10,6 +10,7 @@ class Hero extends Component {
            <Header />
                <div className="xl:flex lg:flex block mb-4">
                     <div className="block xl:flex-1 lg:flex-1  text-dark  ">
+
                         <div className="pt-10 xl:pt-24 xl:mt-18 xl:pr-10  lg:pt-24 lg:mt-18 lg:pr-10 ">
                             <h1 className="font-raleway leading-tight sm:text-3xl md:text-4xl lg-text-5xl xl:text-5xl text-2xl">
                             Interior Design Beyond Borders
