@@ -38,49 +38,45 @@ const client = new ApolloClient({
 const Main = withRouter(({
       location
     }) => {
-      return ( <
-        > {
-          (["/blog", "/blog-post"].includes(location.pathname) && < div className = " mx-auto px-6  sm:pr-20 sm:pl-20" > < Header / > < /div>)} <
-            Route path = "/"
-            exact component = {
-              Home
-            }
-            /> <
-            Route path = "/blog"
-            exact component = {
-              Blog
-            }
-            /> <
-            Route path = "/blog-post"
-            exact component = {
-              SingleBlogPage
-            }
-            /> <
-            Route path = "/blog-post"
-            exact component = {
-              SingleBlogPage
-            }
-            /> <
-            Footer / >
-            <
-            />
-          )
-        })
+      return ( <> 
+        {
+        (["/blog", "/blog-post"].includes(location.pathname) && < div className = " mx-auto px-6  sm:pr-20 sm:pl-20" > < Header /> </div>)} 
+        <Route path = "/"
+          exact component = {
+            Home
+          }
+          /> 
+          <Route path = "/blog"
+          exact component = {
+            Blog
+          }
+          /> 
+          <Route path = "/blog-post"
+          exact component = {
+            SingleBlogPage
+          }
+          /> 
+          <Route path = "/blog-post"
+          exact component = {
+            SingleBlogPage
+          }
+          /> 
+          <Footer />
+          </>
+        )
+      })
 
 
 
       const App = () => {
-        return ( <
-          ApolloProvider client = {
+        return ( 
+        <ApolloProvider client = {
             client
           } >
-          <
-          Router >
-          <
-          Main / >
-          <
-          /Router> <
-          /ApolloProvider>
+          <Router>
+          <Main />
+          </Router> 
+          </ApolloProvider>
         )
       };
 
