@@ -35,7 +35,7 @@ We turn your space into a wonder
                 </div>
 
                 {/* hero tab  */}
-                <div className="relative hidden md:show block lg:flex -mb-4  w-md mx-auto md:mr-28 md:ml-28 lg:mr-32 lg:ml-32  xl:mr-40 xl:ml-40  pt-10 pb-10 p-6 bg-white rounded-lg shadow-xl">
+                <div className="relative hidden md:show block lg:flex -mb-4  w-md mx-auto md:mr-28 md:ml-28 lg:mr-32 lg:ml-32 xl:mt-16  xl:mr-40 xl:ml-40  pt-10 pb-10 p-6 bg-white rounded-lg shadow-xl">
 
                 <div
             className="w-full flex flex-col items-center

@@ -140,12 +140,12 @@ export default class Home extends Component {
        {/* About section */}
        <div className="w-full flex flex-col bg-gray-200  pt-24 pb-24 items-center sm:flex-row lg:h-80 lg:justify-between">
               
-              <div className="w-full px-10 sm:w-1/2 sm:pl-16 sm:pr-16">
+              <div className="w-full px-10 sm:w-2/3 sm:pl-16 sm:pr-16">
                   <h1 className="font-raleway pb-4 leading-tight sm:text-3xl md:text-4xl lg-text-5xl xl:text-5xl text-2xl">Our Studio</h1>
                   <img className="w-full" src="https://res.cloudinary.com/appnet/image/upload/v1571059325/cns/apartment-chair-contemporary-509922.png" /> 
               </div>  
                           
-              <div className="w-full px-10 sm:w-1/2 pl-5 pr-5">
+              <div className="w-full px-10 sm:w-1/3 pl-5 pr-5">
                   <div className="border-orange-500  border-l-2 pl-5 pt-5 pb-5 ">
                   
                       <p>We are a team young smart people who
