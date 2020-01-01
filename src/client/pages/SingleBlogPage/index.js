@@ -1,11 +1,11 @@
 import React from 'react'
-import Card from '../../components'
+import Card from '../../'
 
 const SingleBlogPage = () => {
   return (
     <div>
       <h1>Single Blog page should be here</h1>
-      <Card />
+      {/* <Card /> */}
     </div>
   )
 }
