@@ -35,6 +35,7 @@ Cribs and Spaces Workflow
 - Git Workflow
 
       See link to version control convention and usage
+- [Git Workflow](https://docs.google.com/document/d/1RIsMX-PHivShaqyP3d8Qqs5v7Gqe1FhEs744sz0JQkw/edit?usp=sharing)
 
 - Implement the chores listed below
   
