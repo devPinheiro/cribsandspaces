@@ -40,7 +40,7 @@ const Main = withRouter(({
     }) => {
       return ( <> 
         {
-        (["/blog", "/blog-post"].includes(location.pathname) && < div className = " mx-auto px-6  sm:pr-20 sm:pl-20" > < Header /> </div>)} 
+        (["/blog", "/posts"].includes(location.pathname) && < div className = " mx-auto px-6  sm:pr-20 sm:pl-20" > < Header /> </div>)} 
         <Route path = "/"
           exact component = {
             Home
@@ -51,16 +51,12 @@ const Main = withRouter(({
             Blog
           }
           /> 
-          <Route path = "/blog-post"
+          <Route path = "/posts/:slug"
           exact component = {
             SingleBlogPage
           }
           /> 
-          <Route path = "/blog-post"
-          exact component = {
-            SingleBlogPage
-          }
-          /> 
+         
           <Footer />
           </>
         )
