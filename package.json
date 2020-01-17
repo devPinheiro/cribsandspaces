@@ -13,12 +13,14 @@
     "webpack": "webpack",
     "precommit": "lint-staged"
   },
+
   "lint-staged": {
     "*.{js,jsx}": [
-      "eslint --fix",
-      "git add"
+    "eslint --fix",
+    "git add"
     ]
-  },
+    },
+
   "nyc": {
     "require": [
       "@babel/register"
