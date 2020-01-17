@@ -10,8 +10,17 @@
     "build": "babel src --out-dir build ",
     "heroku-postbuild": "npm run build",
     "start": "node build/app.js",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "precommit": "lint-staged"
   },
+
+  "lint-staged": {
+    "*.{js,jsx}": [
+    "eslint --fix",
+    "git add"
+    ]
+    },
+
   "nyc": {
     "require": [
       "@babel/register"
@@ -54,6 +63,7 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.0.0",
     "@types/joi": "^13.6.1",
+    "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "babel-plugin-istanbul": "^5.1.0",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -61,15 +71,24 @@
     "coveralls": "^3.0.2",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
     "file-loader": "^4.2.0",
+    "husky": "^0.14.3",
     "istanbul": "^0.4.5",
+    "lint-staged": "^9.5.0",
     "mini-css-extract-plugin": "^0.6.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.19.0",
     "nyc": "^14.1.0",
     "postcss-loader": "^3.0.0",
+    "prettier": "^1.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "tailwindcss": "^1.0.1",
