@@ -1,5 +1,8 @@
 # cribsandspaces
 
+[![Build Status](https://travis-ci.com/devPinheiro/cribsandspaces.svg?token=fapu87kTphb5frCBCT61&branch=develop)](https://travis-ci.com/devPinheiro/cribsandspaces)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bf705f48-7b41-4d0b-b53e-9b93de3ea545/deploy-status)](https://app.netlify.com/sites/cribsandspaces/deploys)
 
 📚 An interior Design company website built with React using TailwindCSS + GraphQL
 
