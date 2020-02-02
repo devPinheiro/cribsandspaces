@@ -6,23 +6,21 @@ const {
   maxWidth,
   fontSize,
   inset,
-  height
+  height,
 } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   theme: {
-      fontFamily: {
-          raleway: ['Raleway']
-      },
+    fontFamily: {
+      raleway: ['Raleway'],
     },
-      extend: {
-        height: {
-          'h-100': '100vh',
-        }
-      },
-    
- 
-  variants: {
   },
-  plugins: []
+  extend: {
+    height: {
+      'h-100': '100vh',
+    },
+  },
+
+  variants: {},
+  plugins: [],
 };
