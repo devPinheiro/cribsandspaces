@@ -7,16 +7,16 @@
     "dev": "nodemon  --exec babel-node src/app.js ",
     "test": "cross-env NODE_env=production nyc mocha --require babel-core/register src/**/test.js --timeout 8000 --exit",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "build": "babel src --out-dir build ",
+    "build": "webpack --mode production ",
     "heroku-postbuild": "npm run build",
     "start": "node build/app.js",
     "webpack": "webpack",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "test": ""
   },
 
   "lint-staged": {
     "*.{js,jsx}": [
-   
     "git add"
     ]
     },

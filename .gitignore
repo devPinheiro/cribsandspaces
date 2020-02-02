@@ -3,7 +3,7 @@ node_modules
 .DS_Store
 .nyc_output
 coverage
-dist
 docs.md
 package-lock.json
 src/api
+build
