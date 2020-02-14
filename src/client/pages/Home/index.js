@@ -3,6 +3,7 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
 import Hero from '../../components/Hero';
+import Projects from '../../components/queries/Projects';
 
 export default class Home extends Component {
   render() {
@@ -21,83 +22,7 @@ export default class Home extends Component {
           </div>
 
           <div className="w-full flex flex-col  pt-24 items-center lg:flex-row lg:h-80 lg:justify-between">
-            <div className="w-1/3 m-2 rounded overflow-hidden shadow-lg">
-              <img
-                className="w-full"
-                src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg"
-                alt="Sunset in the mountains"
-              />
-              <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p className="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia,
-                  nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
-              </div>
-              <div className="px-6 py-4">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #photography
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #travel
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
-                  #winter
-                </span>
-              </div>
-            </div>
-
-            <div className="w-1/3 m-2 rounded overflow-hidden shadow-lg">
-              <img
-                className="w-full"
-                src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg"
-                alt="Sunset in the mountains"
-              />
-              <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p className="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia,
-                  nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
-              </div>
-              <div className="px-6 py-4">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #photography
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #travel
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
-                  #winter
-                </span>
-              </div>
-            </div>
-
-            <div className="w-1/3 m-2 rounded overflow-hidden shadow-lg">
-              <img
-                className="w-full"
-                src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg"
-                alt="Sunset in the mountains"
-              />
-              <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p className="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia,
-                  nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
-              </div>
-              <div className="px-6 py-4">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #photography
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #travel
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
-                  #winter
-                </span>
-              </div>
-            </div>
+           <Projects />
           </div>
         </div>
 
