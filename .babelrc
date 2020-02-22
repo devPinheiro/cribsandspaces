@@ -2,17 +2,5 @@
   "presets": [
       "env",
       "@babel/preset-react"
-  ],
-  "env": {
-    "test": {
-      "plugins": [
-        "istanbul"
-      ]
-    },
-    "production": {
-      "plugins": [
-        "istanbul"
-      ]
-    }
-  }
+  ]
 }
