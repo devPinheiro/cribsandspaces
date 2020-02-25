@@ -7,3 +7,4 @@ docs.md
 package-lock.json
 src/api
 build
+dist
