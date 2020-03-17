@@ -21,10 +21,12 @@ export default class Home extends Component {
             <p>We derive joy in making your space your space truly.</p>
           </div>
 
-          <div className="w-full flex flex-col  pt-24 items-center lg:flex-row lg:h-80 lg:justify-between">
+         
+        </div>
+
+         <div className="w-full flex flex-col  pt-24 items-center lg:flex-row lg:h-80 lg:justify-between overflow-x-scroll">
            <Projects />
           </div>
-        </div>
 
         {/* Projects slides */}
         <div className="w-full mt-40 max-w-screen-xl mx-auto px-6 pb-24  sm:pr-20 sm:pl-20">
