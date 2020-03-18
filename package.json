@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon  --exec babel-node src/app.js ",
+    "test:watch": "jest --watchAll",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "build": "webpack --mode production ",
     "heroku-postbuild": "npm run build",
@@ -13,13 +14,11 @@
     "precommit": "lint-staged",
     "test": ""
   },
-
   "lint-staged": {
     "*.{js,jsx}": [
-    "git add"
+      "git add"
     ]
-    },
-
+  },
   "nyc": {
     "require": [
       "@babel/register"
@@ -35,6 +34,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.0",
     "apollo-boost": "^0.4.4",
     "babel-preset-env": "^2.0.0-alpha.20",
     "bcryptjs": "^2.4.3",
@@ -42,6 +43,7 @@
     "classnames": "^2.2.6",
     "express": "^4.16.3",
     "graphql": "^14.5.8",
+    "jest": "^25.1.0",
     "joi": "^14.0.1",
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.3.6",
@@ -52,6 +54,7 @@
     "react-apollo": "^3.1.3",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
+    "react-test-renderer": "^16.12.0",
     "swagger-ui-express": "^4.0.1"
   },
   "devDependencies": {

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Card = ({ featured_image, title, description, tags, ...rest }) => {
   return (
-    <div className="max-w-sm  m-2 rounded overflow-hidden shadow-lg">
+    <div className="max-w-sm  m-2 rounded overflow-hidden shadow-lg" data-testid="card-component">
       <img
         className="w-full"
         src={

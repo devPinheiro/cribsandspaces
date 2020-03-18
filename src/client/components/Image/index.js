@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 const Image = ({src, alt, className }) => {
   return (
     <img 
+       data-testid="image-component"
        src={src}
        alt={alt}
        className={className} 
@@ -14,7 +15,7 @@ const Image = ({src, alt, className }) => {
 Image.propTypes = {
   src: PropTypes.string,
   alt: PropTypes.string,
-  className: PropTypes.sttring,
+  className: PropTypes.string,
 };
 
 export default Image
