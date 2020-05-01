@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Project = ({ project_images, Title, Company_Name, description, ...rest }) => {
   return (
-    <div className="w-1/3  m-2 rounded overflow-hidden shadow-lg">
+    <div className="w-1/3  m-2 rounded mt-10 mb-10 mr-4 ml-4 shadow-lg">
       <img
         className="max-w-sm h-64 "
         src={

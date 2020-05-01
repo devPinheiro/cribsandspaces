@@ -41,7 +41,7 @@ const Navbar = () => {
       >
         <div className="text-sm text-center m-auto pt-8 lg:pt-1 xl:pt-1">
           <NavLink
-            className="font-raleway block  md:text-lg lg:text-lg xl:text-lg text-sm lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
+            className="font-raleway block  md:text-base lg:text-base xl:text-base text-sm lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
             to="/"
             exact
             activeClassName="border-orange-500 font-semibold pb-1 border-b-2"
@@ -49,7 +49,7 @@ const Navbar = () => {
             Home
           </NavLink>
           <NavLink
-            className="font-raleway block   md:text-lg lg:text-lg xl:text-lg lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
+            className="font-raleway block   md:text-base lg:text-base xl:text-base lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
             to="/projects"
             activeClassName="border-orange-500 font-semibold pb-1 border-b-2"
           >
@@ -57,7 +57,7 @@ const Navbar = () => {
           </NavLink>
 
           <NavLink
-            className="font-raleway block   md:text-lg lg:text-lg xl:text-lg lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
+            className="font-raleway block   md:text-base lg:text-base xl:text-base lg:mr-8 mt-4 lg:inline-block lg:mt-0 text-dark-200 hover:text-dark"
             to="/blog"
             exact
             activeClassName="border-orange-500 font-semibold pb-1 border-b-2"
@@ -65,7 +65,7 @@ const Navbar = () => {
             Our Blog
           </NavLink>
 
-          <div className="font-raleway block md:text-lg lg:text-lg xl:text-lg lg:mr-8 lg:mt-4 lg:inline-block lg:mt-0 ">
+          <div className="font-raleway block md:text-base lg:text-base xl:text-base lg:mr-8 lg:mt-4 lg:inline-block lg:mt-0 ">
             <ContactForm />
           </div>
         </div>
