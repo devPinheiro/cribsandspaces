@@ -1,8 +1,10 @@
 /* eslint-disable react/prefer-stateless-function */
 /* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from 'react';
+import Card from '../../components/Card';
 // import { Link } from 'react-router-dom';
 import Hero from '../../components/Hero';
+import Project from '../../components/ProjectCard';
 import Projects from '../../components/queries/Projects';
 
 export default class Home extends Component {
@@ -25,8 +27,17 @@ export default class Home extends Component {
         </div>
 
          <div className="w-full flex flex-col  pt-24 items-center lg:flex-row lg:h-80 lg:justify-between overflow-x-scroll">
-           <Projects />
+           {/* <Projects /> */}
+           <Project />
+           <Project />
           </div>
+
+          <div className="w-full flex flex-col  pt-24 items-center lg:flex-row lg:h-80 lg:justify-between overflow-x-scroll">
+           {/* <Projects /> */}
+           <Project />
+           <Project />
+          </div>
+
 
         {/* Projects slides */}
         <div className="w-full mt-40 max-w-screen-xl mx-auto px-6 pb-24  sm:pr-20 sm:pl-20">
@@ -42,83 +53,9 @@ export default class Home extends Component {
             className="w-full flex flex-col  pt-24 items-center
         lg:flex-row lg:h-80 lg:justify-between"
           >
-            <div className="max-w-sm lg:w-1/3 rounded overflow-hidden shadow-lg">
-              <img
-                className="w-full"
-                src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg"
-                alt="Sunset in the mountains"
-              />
-              <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p className="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia,
-                  nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
-              </div>
-              <div className="px-6 py-4">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #photography
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #travel
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
-                  #winter
-                </span>
-              </div>
-            </div>
-
-            <div className="max-w-sm lg:w-2/3 rounded overflow-hidden shadow-lg">
-              <img
-                className="w-full"
-                src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg"
-                alt="Sunset in the mountains"
-              />
-              <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p className="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia,
-                  nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
-              </div>
-              <div className="px-6 py-4">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #photography
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #travel
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
-                  #winter
-                </span>
-              </div>
-            </div>
-
-            <div className="max-w-sm rounded overflow-hidden shadow-lg">
-              <img
-                className="w-full"
-                src="https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg"
-                alt="Sunset in the mountains"
-              />
-              <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p className="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia,
-                  nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
-              </div>
-              <div className="px-6 py-4">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #photography
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                  #travel
-                </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
-                  #winter
-                </span>
-              </div>
-            </div>
+            <Card />
+            <Card />
+            <Card />
           </div>
         </div>
 
