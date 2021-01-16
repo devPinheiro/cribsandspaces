@@ -7,16 +7,17 @@ const Card = ({ featured_image, title, description, tags, ...rest }) => {
       <img
         className="w-full"
         src={
-          featured_image[0].url
-            ? featured_image[0].url
-            : 'https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg'
+          // featured_image[0].url
+          //   ? featured_image[0].url
+          //   : 
+          'https://res.cloudinary.com/appnet/image/upload/v1571059042/cns/cribs_logo.jpg'
         }
         alt="Sunset in the mountains"
       />
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{title}</div>
+        {/* <div className="font-bold text-xl mb-2">{title}</div>
 
-        <p className="text-gray-700 text-base">{description}</p>
+        <p className="text-gray-700 text-base">{description}</p> */}
       </div>
       <div className="px-6 py-4">
         {/* {
